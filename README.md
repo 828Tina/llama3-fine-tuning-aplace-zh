@@ -13,7 +13,7 @@ SwanLab是一个深度学习实验管理与训练可视化工具，由西安电�
 
 在训练过程中，你可能因为各种原因无法看到当前实验的最新情况，这个时候如果能够在手机、平板上看到实验的最新进展，及时发现训练的问题，能够节省很多的时间。
 
-![chart图](./example/chart.jpg)
+![chart图](./example/chart.png)
 
 SwanLab也与绝大多数主流的训练框架进行了集成，包括PyTorch、HuggingFace Transformers、PyTorch Lightning、MMDetection、Ultralytics、fastai等等，可以开箱即用地与你的深度学习工作流轻松集成。
 
@@ -109,7 +109,7 @@ trainer = SFTTrainer(
 
 如果你是第一次使用SwanLab，那么还需要去[swanlab官网](https://swanlab.cn)上注册一个账号，在用户设置页面复制你的API Key，然后在训练开始时粘贴进去即可：
 
-![api key](./example/api_key.jpg)
+![api key](./example/api_key.png)
 
 ## 参数设置
 
@@ -138,7 +138,7 @@ python train.py
 
 ## 训练结果
 
-![训练结果](./example/results_charts.jpg)
+![训练结果](./example/harts.png)
 
 ## 结果测试
 
@@ -146,4 +146,4 @@ python train.py
 python test_after.py
 ```
 
-![测试结果](./example/test_results.jpg)
+![测试结果](./example/test_results.png)
