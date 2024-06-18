@@ -138,7 +138,7 @@ python train.py
 
 ## 训练结果
 
-![训练结果](./example/harts.png)
+![训练结果](./example/charts.png)
 
 ## 结果测试
 
